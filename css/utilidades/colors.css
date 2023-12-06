@@ -1,0 +1,126 @@
+/*
+
+Lugar para ser usado para armazenar cores pré-definidas.
+
+*/
+
+:root {
+    --cor-15: #332200;
+    --cor-14: #FFBB00;
+    --cor-13: #FFCF49;
+    --cor-12: #000000;
+    --cor-11: #111111;
+    --cor-10: #2E2E2E;
+    --cor-9: #404040;
+    --cor-8: #595959;
+    --cor-7: #717171;
+    --cor-6: #9C9C9C;
+    --cor-5: #B2B2B2;
+    --cor-4: #CCCCCC;
+    --cor-3: #DEDEDE;
+    --cor-2: #EDEDED;
+    --cor-1: #F7F7F7;
+    --cor-w: #FFFFFF;
+
+    --p5: #332200;
+    --p3: #664400;
+    --p2: #A66F00;
+    --p1: #FFBB00;
+}
+
+
+/* 
+Cores que podem ser utilizado
+*/
+.c15 {
+    color: #332200;
+}
+.c14 {
+    color: #FFBB00;
+}
+.c13 {
+    color: #FFCF49;
+}
+.c12 {
+    color: #000000;
+}
+.c11 {
+    color: #111111;
+}
+.c10 {
+    color: #2E2E2E;
+}
+.c9 {
+    color: #404040;
+}
+.c8 {
+    color: #595959;
+}
+.c7 {
+    color: #717171;
+}
+.c6 { 
+    color: #9C9C9C;
+}
+.c5 { 
+    color: #B2B2B2;
+}
+.c4 {
+    color: #CCCCCC;
+}
+.c3 {
+    color: #DEDEDE;
+}
+.c2 {
+    color: #EDEDED;
+}
+.c1 {
+    color: #F7F7F7;
+}
+.cw {
+    color: #FFFFFF;
+}
+
+.p5 {
+    color: #332200;
+}
+.p4 {
+    color: #664400;
+}
+.p3 {
+    color: #A66F00;
+}
+.p2 {
+    color: #E4A30B;
+}
+.p1 {
+    color: #FFBB00;
+}
+
+/* Cor de texto Principal*/
+.white-color {
+    color: var(--cor-w);
+}
+
+/* Cor de texto descrição */
+.grey-color { 
+    color: var(--cor-5);
+}
+
+.black-color {
+    background: var(--cor-12);
+}
+
+.span-hightlight { 
+    color: var(--cor-14);
+}
+
+.p-text {
+    color: var(--cor-5);
+}
+
+/* Cor do botão principal */
+.button-color {
+    background: var(--p1);
+    color: var(--cor-15);
+}

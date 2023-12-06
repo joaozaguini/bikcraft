@@ -1,22 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Poppins:wght@300&display=swap');
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-ul { 
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 .header-bg {
-    background-color: #000000;
+    background: var(--cor-12);
 }
 
 .header {
@@ -39,13 +22,11 @@ a {
 }
 
 .header-menu a {
-    color: #FFF;
     display: inline-block;
     padding: 16px 0px;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     line-height: 32px;
     position: relative;
 }
@@ -55,7 +36,7 @@ a {
     display: block;
     height: 2px;
     width: 0;
-    background: #FFF;
+    background: var(--cor-w);
     transition: .2s;
     position: absolute;
 }
@@ -76,7 +57,7 @@ a {
     }
 
     .header-menu a:hover {
-        background: #2E2E2E;
+        background: var(--cor-10);
     }
 
     .header a:after {
