@@ -34,6 +34,14 @@
 @import url('../bicicleta/bicicleta.css');
 /* Seguro Bicicleta */
 @import url('../bicicleta/seguro.css');
+/* Contato */
+@import url('../contato/contato.css');
+/* Lojas */
+@import url('../contato/lojas.css');
+/* Formulario */
+@import url('../utilidades/formulario.css');
+/* Orçamento */
+@import url('../orcamento/orcamento.css');
 
 ::selection {
     color: var(--branco);
@@ -67,6 +75,15 @@ dd,
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.form .col-2 {
+    grid-column: span 2;;
+}
+
+textarea,
+input {
+    resize: none;
 }
 
 ul { 

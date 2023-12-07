@@ -33,7 +33,7 @@
     display: block;
     height: 2px;
     width: 0;
-    background: var(--cor-w);
+    background: currentColor;
     transition: .2s;
     position: absolute;
 }
