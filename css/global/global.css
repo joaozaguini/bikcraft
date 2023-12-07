@@ -38,7 +38,8 @@ a {
     color: inherit;
 }
 
-img {
+img[src$=".jpg"] {
     max-width: 100%;
     display: block;
+    border-radius: 10px;
 }
