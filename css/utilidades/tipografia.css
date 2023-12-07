@@ -64,13 +64,13 @@
 
 @media (max-width: 600px) {
     .font-1-xxl {
-        font-size: 1px;
+        font-size: 2rem;
     }
 }
 
 @media (max-width: 800px){
     .font-1-xxl {
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
     .font-1-xl,
     .font-2-xl {

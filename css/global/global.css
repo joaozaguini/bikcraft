@@ -30,11 +30,31 @@
 @import url('../seguros/perguntas.css');
 /* Vantagens */
 @import url('../seguros/vantagens.css');
+/* Bicicleta */
+@import url('../bicicleta/bicicleta.css');
+/* Seguro Bicicleta */
+@import url('../bicicleta/seguro.css');
 
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+::selection {
+    color: var(--branco);
+    background: #b0b0b0;
 }
+
+p::selection,
+span::selection,
+a::selection,
+li::selection {
+    color: var(--cor-11);
+    background: var(--cor-3);
+}
+
+.span-hightlight::selection {
+    color: var(--p1);
+}
+
+/*
+Resets de todas as variaveis ja existentes do CSS
+*/
 
 h1,
 h2,
@@ -43,8 +63,10 @@ h4,
 ul,
 p,
 blockquote,
-dd {
+dd,
+body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul { 
@@ -55,6 +77,10 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.p-text {
+    margin-bottom: 20px;
 }
 
 img[src$=".jpg"] {
