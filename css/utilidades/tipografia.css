@@ -15,7 +15,7 @@
 }
 
 .font-1-m,
-.font-1-mb {
+.font-1-m-b {
     font: 400 1.125rem/1.35 "Poppins", sans-serif;
 }
 
@@ -50,7 +50,7 @@
     text-transform: uppercase;
 }
 
-.font-1-mb {
+.font-1-m-b {
     font-weight: 600;
 }
 

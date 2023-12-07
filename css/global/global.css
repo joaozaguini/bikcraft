@@ -12,6 +12,8 @@
 @import url('../utilidades/colors.css');
 /* Bikes */
 @import url('../bicicletas/bicicletas-lista.css');
+/* Bicicletas */
+@import url('../bicicletas/bicicletas.css');
 /* Tecnologia */
 @import url('../home/tecnologia.css');
 /* Parceiros */
@@ -24,6 +26,10 @@
 @import url('./footer.css');
 /* Termos */
 @import url('../termos/termos.css');
+/* Perguntas */
+@import url('../seguros/perguntas.css');
+/* Vantagens */
+@import url('../seguros/vantagens.css');
 
 body {
     margin: 0;
@@ -36,7 +42,8 @@ h3,
 h4,
 ul,
 p,
-blockquote {
+blockquote,
+dd {
     margin: 0;
 }
 
