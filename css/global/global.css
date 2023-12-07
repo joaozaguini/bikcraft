@@ -12,11 +12,22 @@
 @import url('../utilidades/colors.css');
 /* Bikes */
 @import url('../bicicletas/bicicletas-lista.css');
+/* Tecnologia */
+@import url('../home/tecnologia.css');
+/* Parceiros */
+@import url('../home/parceiros.css');
+/* Depoimento */
+@import url('../home/depoimento.css');
+/* Seguros */
+@import url('../seguros/seguros.css');
+/* Footer */
+@import url('./footer.css');
+/* Termos */
+@import url('../termos/termos.css');
 
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 800px;
 }
 
 h1,
@@ -24,7 +35,8 @@ h2,
 h3,
 h4,
 ul,
-p {
+p,
+blockquote {
     margin: 0;
 }
 
