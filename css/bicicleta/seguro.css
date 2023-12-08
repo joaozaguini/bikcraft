@@ -45,5 +45,18 @@
     .seguro-imagem {
         margin-top: -180px;
         height: 200px;
+        margin-bottom: 580px;
+    }
+}
+
+@media (max-width: 600px) {
+    .seguro-imagem {
+        margin-bottom: 380px;
+    }
+}
+
+@media (max-width: 400px) {
+    .seguro-imagem {
+        margin-bottom: 180px;
     }
 }
