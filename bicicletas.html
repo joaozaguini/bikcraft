@@ -19,6 +19,7 @@
 
     <!-- Title -->
     <title>Termos e Condições | Bikcraft</title>
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 <body id="bicicletas">
     <header class="header-bg">
@@ -38,19 +39,23 @@
     <main>
         <div class="titulo-bg">
             <div class="titulo container">
-                <p class="font-2-l-b c5">escolha a melhor para você</p>
-                <h1 class="font-1-xxl cw">nossas bicicletas<span class="span-hightlight">.</span></h1>
+                <p class="font-2-l-b c5 fadeInDown" data-anime="200">escolha a melhor para você</p>
+                <h1 class="font-1-xxl cw fadeInDown" data-anime="200">nossas bicicletas<span class="span-hightlight">.</span></h1>
             </div>
         </div>
         <!-- Nimbus Stark -->
         <div class="bicicletas-bg">
             <div class="bicicletas container">
                 <div class="bicicletas-imagem">
-                    <img src="./img/bicicletas/nimbus.jpg" alt="Bicicleta Preta">
+                    <a href="./bicicletas/nimbus.html">
+                        <img src="./img/bicicletas/nimbus.jpg" alt="Bicicleta Preta">
+                    </a>
                     <span class="font-2-m cw">R$ 4999</span>
                 </div>
                 <div class="bicicletas-conteudo">
-                    <h2 class="font-1-xl">Nimbus Stark</h2>
+                    <a class="categoria" href="./bicicletas/nimbus.html">
+                        <h2 class="font-1-xl">Nimbus Stark</h2>
+                    </a>
                     <p class="font-2-s c8">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
                     <ul class="font-1-m c8">
                         <li><img src="./img/icones/eletrica.svg" alt="">Motor Elétrico</li>
@@ -66,11 +71,15 @@
         <div class="bicicletas-bg">
             <div class="bicicletas container">
                 <div class="bicicletas-imagem">
-                    <img src="./img/bicicletas/magic.jpg" alt="Bicicleta Preta">
+                    <a href="./bicicletas/magic.html">
+                        <img src="./img/bicicletas/magic.jpg" alt="Bicicleta Preta">
+                    </a>
                     <span class="font-2-m cw">R$ 2499</span>
                 </div>
                 <div class="bicicletas-conteudo">
-                    <h2 class="font-1-xl cw">Magic Might</h2>
+                    <a class="categoria" href="./bicicletas/magic.html">
+                        <h2 class="font-1-xl cw">Magic Might</h2>
+                    </a>
                     <p class="font-2-s c5">A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
                     <ul class="font-1-m c5">
                         <li><img src="./img/icones/eletrica.svg" alt="Motor Elétrico">Motor Elétrico</li>
@@ -86,11 +95,15 @@
         <div class="bicicletas-bg">
             <div class="bicicletas container">
                 <div class="bicicletas-imagem">
-                    <img src="./img/bicicletas/nebula.jpg" alt="Bicicleta Branca">
+                    <a href="./bicicletas/nebula.html">
+                        <img src="./img/bicicletas/nebula.jpg" alt="Bicicleta Branca">
+                    </a>
                     <span class="font-2-m cw">R$ 3999</span>
                 </div>
                 <div class="bicicletas-conteudo">
-                    <h2 class="font-1-xl">Nebula Cosmic</h2>
+                    <a class="categoria" href="./bicicletas/nebula.html">
+                        <h2 class="font-1-xl">Nebula Cosmic</h2>
+                    </a>
                     <p class="font-2-s c8">A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
                     <ul class="font-1-m c8">
                         <li><img src="./img/icones/eletrica.svg" alt="">Motor Elétrico</li>
@@ -141,6 +154,7 @@
             <p class="footer-copy font-2-m c6">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
